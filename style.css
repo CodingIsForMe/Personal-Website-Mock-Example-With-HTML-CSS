@@ -1,0 +1,223 @@
+@font-face {
+    font-family: Apricots;
+    src: url(./fonts/apricot-2-webfont/Apricot-BF650c4a6357ce1.woff);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 95vh;
+}
+.header{
+    background-image: url("./img/background\ image.png");
+    background-size: cover;
+    
+}
+.header-content-flex{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 67vh;
+}
+
+.header-content{
+    background-color: black;
+    color: white;
+    width: 52%;
+    height: 280px;
+    text-align: center;
+}
+.header-content h1{
+    font-family: Apricots;
+    font-size: 60px;
+}
+.header-content p{
+    font-size: 40px;
+}
+
+.intro{
+    height: 100vh;
+}
+
+.intro-header{
+    height: 20vh;
+    text-align: center;
+}
+
+.intro-header h2{
+    font-size: 50px;
+    font-family: Apricots;
+}
+
+
+
+.intro-content{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    background-color: black;
+    color: white;
+}
+.profile-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-image img{
+    height: 65vh;
+    width: 80%;
+}
+
+.profile-intro{
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.profile-intro p{
+    width: 65%;
+    font-size: 40px;
+    padding: 100px 60px;
+    background-color: #cb9293;
+}
+
+.skills{
+    height: 105vh;
+}
+
+.skills-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 85vh;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.skills-header{
+    height: 20vh;
+    text-align: center;
+}
+
+.skills-header h2{
+    font-size: 50px;
+    font-family: Apricots;
+}
+
+.skills1{
+
+}
+.skills1-content{
+    background-color: #cb9293;
+    height: 50vh; 
+    text-align: center; 
+    width: 80%;
+    padding: 0px 20px 50px;
+}
+
+.skills1-content-container{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.skills1-content p, .skills2-content p{
+    margin-bottom: 0;
+    
+}
+.skills1 img{
+    margin-top: 40px;
+    height: 40px;
+}
+.skills1 h3{
+    padding-top: 15px;
+    font-size: 50px;
+    font-family: Apricots;
+    margin-bottom: 30px;
+}
+
+.skills1 p{
+    font-size: 30px;
+}
+
+
+.skills2-content-container{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.skills2-content{
+    background-color: #cb9293;
+    height: 50vh;
+    text-align: center;
+    width: 80%;
+    padding: 0px 20px 50px;
+}
+
+.skills2 img{
+    margin-top: 40px;
+    height: 40px;
+}
+
+
+.skills2 h3{
+    padding-top: 15px;
+    font-size: 50px;
+    font-family: Apricots;
+    margin-bottom: 30px;
+}
+
+.skills2 p{
+    font-size: 30px;
+}
+
+.contact{
+    height: 40vh;
+}
+
+.space{
+    height: 15vh;
+}
+
+.contact-content{
+    height: 25vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    color: white;
+}
+
+.contact-sec-1{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.contact-sec-1 p{
+    font-size: 30px;
+    font-family: Apricots;
+}
+
+.contact-sec-2 p{
+    font-size: 30px;
+    font-family: Apricots;
+    text-align: center;
+    height: 7vh;
+}
+
+.contact-icons{
+    display: flex;
+    align-items: center;
+    height: auto;
+    justify-content: space-evenly;
+}
